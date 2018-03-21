@@ -36,11 +36,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(305, 450);
             this.Name = "Form1";
-<<<<<<< HEAD
             this.Text = "Robertotototo";
-=======
-            this.Text = "...";
->>>>>>> 48c7519e818af76c75109b536800c4e8b50a665a
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
